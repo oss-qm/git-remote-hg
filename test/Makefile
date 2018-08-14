@@ -1,6 +1,6 @@
 RM ?= rm -f
 
-T = main.t bidi.t
+T = $(wildcard *.t)
 TEST_DIRECTORY := $(CURDIR)
 
 export TEST_DIRECTORY
